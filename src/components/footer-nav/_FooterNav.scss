@@ -1,0 +1,48 @@
+.footer-nav {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    border-top: 0.5px solid #DADADA;
+    background: rgb(255, 255, 255);
+
+    .wrap {
+        height: 100%;
+    }
+
+    .footer-nav__list {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .footer-nav__item {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    
+        .footer-nav__item--home {
+            background: url(../../img/icons/footer-icons/home-icon.svg) no-repeat center;
+        }
+
+        .footer-nav__item--search {
+            background: url(../../img/icons/footer-icons/search-icon.svg) no-repeat center;
+        }
+
+        .footer-nav__item--video {
+            background: url(../../img/icons/footer-icons/video-icon.svg) no-repeat center;
+        }
+
+        .footer-nav__item--shop {
+            background: url(../../img/icons/footer-icons/shop-icon.svg) no-repeat center;
+        }
+
+        .footer-nav__item--profile {
+            background: url(../../img/icons/footer-icons/avatar-icon.svg) no-repeat center;
+        }
+    }
+   
+}

@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+}
+
+.wrap {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background: rgb(255, 255, 255);
+    border: 0.5px solid #DADADA;
+    // background: coral;
+
+    .wrap {
+        // border: 1px solid blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo {
+        width: 104px;
+        height: 33px;
+        background: url('../../img/logo/instagram-logo.svg') center no-repeat;
+        cursor: pointer;
+    }
+
+    .header-nav {
+        // background: olive;
+        height: 25px;
+
+        .header-nav__list {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .header-nav__item {
+            width: 25px;
+            height: 25px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .header-nav__item--add {
+            background: url('../../img/icons/header-icons/add-icon.svg') center no-repeat;
+        }
+
+        .header-nav__item--heart {
+            background: url('../../img/icons/header-icons/heart-icon.svg') center no-repeat;
+        }
+
+        .header-nav__item--messenger {
+            background: url('../../img/icons/header-icons/messenger-icon.svg') center no-repeat;
+        }
+    }
+}

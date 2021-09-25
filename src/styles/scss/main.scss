@@ -1,0 +1,18 @@
+// import configs styles
+@import '../scss/config/reset';
+@import '../scss/config/mixins';
+@import '../scss/config/media';
+
+//import fonts
+//use this: font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+// import pages styles
+@import '../../pages/login-page/LoginPage';
+@import '../../pages/feed-page/FeedPage';
+@import '../../pages/profile-page/ProfilePage';
+
+// import components styles
+@import '../../components/header-nav/Header';
+@import '../../components/footer-nav/FooterNav';
+@import '../../components/post/Post';
